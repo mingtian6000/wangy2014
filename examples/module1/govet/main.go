@@ -6,6 +6,9 @@ import (
 
 func main() {
 	name := "testing"
-	fmt.Printf("%d\n", name)
+	var i int
+	i, _ = fmt.Printf("%d\n", name)
+	fmt.Sprintf("%d\n", i)
+	//fmt.Printf("%d\n", name)
 	fmt.Printf("%s\n", name, name)
 }

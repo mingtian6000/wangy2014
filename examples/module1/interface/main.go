@@ -11,8 +11,7 @@ type Human struct {
 }
 
 type Plane struct {
-	vendor string
-	model  string
+	vendor, model string
 }
 
 func (h *Human) getName() string {

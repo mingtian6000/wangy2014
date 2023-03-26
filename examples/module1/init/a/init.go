@@ -1,9 +1,8 @@
 package a
 
 import (
+	_ "example/init/b"
 	"fmt"
-
-	_ "github.com/cncamp/golang/examples/module1/init/b"
 )
 
 func init() {

@@ -16,6 +16,7 @@ func main() {
 	fmt.Println(pointer)
 	fmt.Println(anotherString)
 	para := ParameterStruct{Name: "aaa"}
+	fmt.Println("##################")
 	fmt.Println(para)
 	changeParameter(&para, "bbb")
 	fmt.Println(para)

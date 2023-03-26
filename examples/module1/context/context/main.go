@@ -31,5 +31,5 @@ func main() {
 		time.Sleep(1 * time.Second)
 		fmt.Println("main process exit!")
 	}
-	// time.Sleep(time.Second * 5)
+	// basic.Sleep(basic.Second * 5)
 }
